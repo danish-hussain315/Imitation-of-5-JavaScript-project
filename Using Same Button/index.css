@@ -1,0 +1,48 @@
+html, body{
+  height: 100%;
+  width: 100%;
+
+}
+body{
+  background-color: steelblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.card{
+  width: 300px;
+  height: 450px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card img{
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #212121;
+}
+h1{
+  font-size: 30px;
+  margin: 10px 0px;
+}
+
+.card h5{
+  font-size: 25px;
+  color: red;
+  margin: 20px;
+}
+.card button{
+  background-color: cadetblue;
+  color: white;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 5px ;
+  border: none;
+  cursor: pointer;
+}
